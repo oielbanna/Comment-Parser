@@ -1,4 +1,4 @@
-package comment_parser.comment_parser;
+package comment_parser;
 
 /**
  * The {@code TokeType} enumeration represents types of tokens that we need to

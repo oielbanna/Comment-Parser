@@ -1,4 +1,4 @@
-package comment_parser.comment_parser;
+package comment_parser;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
@@ -24,7 +24,7 @@ public class JavaCounter extends FileCounter {
 	 * @param line
 	 * @return returns TokenType of the first Token that appears in line
 	 */
-	TokenType getToken(String line) {
+	protected TokenType getToken(String line) {
 		final String stringToken = "\"";
 		final String blockCommentToken = "/*";
 		final String lineCommentToken = "//";

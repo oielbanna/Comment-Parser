@@ -1,4 +1,4 @@
-package comment_parser.comment_parser;
+package comment_parser;
 import java.io.InputStream;
 import java.util.Scanner;
 
@@ -77,7 +77,7 @@ public abstract class FileCounter {
 	 * @param line
 	 * @return returns TokenType of the first Token that appears in line
 	 */
-	abstract TokenType getToken(String line);
+	protected abstract TokenType getToken(String line);
 
 	/**
 	 * Starting with line, loops through inputstream using scanner until it finds
@@ -86,7 +86,7 @@ public abstract class FileCounter {
 	 * @param line    first line that has a block comment
 	 * @param scanner
 	 */
-	abstract void handleBlockComment(String line, Scanner scanner);
+	protected abstract void handleBlockComment(String line, Scanner scanner);
 
 	/**
 	 * increments todo count if line contains "TODO"

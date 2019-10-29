@@ -1,4 +1,4 @@
-package comment_parser.comment_parser;
+package comment_parser;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 public class App {
 	public static void main(String[] args) throws FileNotFoundException {
 		if (args.length != 1) {
-			throw new IllegalArgumentException("Must have only one argument with filename");
+			throw new IllegalArgumentException("Must have only one argument with filename (not file path)");
 		}
 
 		String filename = args[0];

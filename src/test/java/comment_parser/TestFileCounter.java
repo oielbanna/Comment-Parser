@@ -1,4 +1,4 @@
-package comment_parser.comment_parser;
+package comment_parser;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;

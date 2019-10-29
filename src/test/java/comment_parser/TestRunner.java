@@ -1,4 +1,4 @@
-package comment_parser.comment_parser;
+package comment_parser;
 
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;

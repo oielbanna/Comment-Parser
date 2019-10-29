@@ -1,4 +1,4 @@
-package comment_parser.comment_parser;
+package comment_parser;
 
 import java.util.Arrays;
 import java.util.List;
