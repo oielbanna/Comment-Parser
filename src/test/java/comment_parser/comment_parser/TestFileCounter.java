@@ -67,7 +67,7 @@ public class TestFileCounter {
 
 	@Test
 	public void testCompleteFileOne() {
-		String string = "Test.java";
+		String string = "TestInput.java";
 
 		InputStream inputStream;
 		try {
@@ -88,7 +88,7 @@ public class TestFileCounter {
 
 	@Test
 	public void testCompleteFileTwo() {
-		String string = "Test.js";
+		String string = "TestInput.js";
 
 		InputStream inputStream;
 		try {
